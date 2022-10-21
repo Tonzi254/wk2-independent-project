@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<title>Ghanaian Akan Birthday Calculator</title>
+
+<head>
+    <!-- <script src="index.js"></script> -->
+    <script src="js/submit.js"> type="text/javascript" </script>
+</head>
+
+<body>
+
+    <form>
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob" name="dob"><br>
+
+        <label>Gender</label><br>
+        <!-- <label for="male">Male:</label>
+        <input type="button" name="malebtn" id="male"> <br>
+        <label for="female">Female:</label>
+        <input type="button" name="femalebtn" id="female"> -->
+        <input list="gender">
+        <datalist id="gender">
+          <option value="Male">
+          <option value="Female">
+        </datalist>
+    </form>
+
+    <br>
+    <button onclick="loginHandler()" type="submit">Submit</button> <input type="reset">
+
+</body>
+
+
+
+</html>
