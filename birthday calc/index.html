@@ -11,23 +11,18 @@
 <body>
 
     <form>
-        <label for="dob">Date of Birth</label><br>
-        <input type="date" id="dob" name="dob"><br>
+        <label for="dob_choose">Date of Birth</label><br>
+        <input type="date" id="dob_choose" name="dob_choose"><br><br>
 
         <label>Gender</label><br>
-        <!-- <label for="male">Male:</label>
-        <input type="button" name="malebtn" id="male"> <br>
-        <label for="female">Female:</label>
-        <input type="button" name="femalebtn" id="female"> -->
-        <input list="gender">
-        <datalist id="gender">
+        <input list="gender_id" id="gender_choose" name="gender_choose">
+        <datalist id="gender_id">
           <option value="Male">
           <option value="Female">
         </datalist>
-    </form>
-
-    <br>
+    <br><br>
     <button onclick="loginHandler()" type="submit">Submit</button> <input type="reset">
+</form>
 
 </body>
 
