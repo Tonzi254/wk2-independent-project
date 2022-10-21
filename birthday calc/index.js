@@ -1,2 +1,2 @@
-alert ("Please input your birthday and select your gender to see your Ghanaian Akan name!")
+alert ("Please select your birthday and gender then click on submit to reveal your Ghanaian Akan name!")
 
