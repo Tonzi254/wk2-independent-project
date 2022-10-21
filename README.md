@@ -1,4 +1,4 @@
-Application Name: Ghana Akan Name Calculator
+Application Name: Ghanaian Akan Name Calculator
 
 Description: This is a webpage to calculate a persons Akan Name from input of the person's Date of Birth and Gender
 

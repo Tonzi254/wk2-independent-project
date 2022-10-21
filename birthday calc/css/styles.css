@@ -88,14 +88,9 @@ footer {
     color: white;
 }
 
-@media (max-width: auto) {
-    .section {
-        -webkit-flex-direction: column;
-        flex-direction: column;
-    }
-
+@media only screen and (max-width: auto) {
     .column {
-        display: block;
-        width: 100%;
+      display: block;
+      width: 100%;
     }
-}
+  }
