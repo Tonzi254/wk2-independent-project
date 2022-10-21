@@ -1,6 +1,6 @@
-Application Name: Ghanaian Akan Name Calculator
+Project Name: Ghanaian Akan Name Calculator
 
-Description: This is a webpage to calculate a persons Akan Name from input of the person's Date of Birth and Gender
+Project Description: This is a webpage to calculate a persons Akan Name from input of the person's Date of Birth and Gender
 
 Author: Daniel Rotich
 
@@ -14,8 +14,7 @@ Setup Requirements:
 
 Known Bugs: None
 
-Technologies used: HTML, CSS and VSCodium
-
+Technologies used: HTML, JavaScript, CSS and VSCodium
 Support and contact details: Please send an e-mail to dante_dot_skilz_at_gmail_dot_com
 
 License Information:
