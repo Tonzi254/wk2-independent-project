@@ -3,6 +3,7 @@ const selectionVerifier = (dob_choose, gender_choose) => {
         alert('Application proceeding to the next step');
     } else {
         alert('Please provide your Date of Birth and/or Gender');
+        return;
     }
 
 }
@@ -60,7 +61,7 @@ const getAkanName = (dt, gender) => {
         alert('Your Akan Name is: ' + femaleAkan[0]);
     }
     else {
-        alert('Invalid Input Has Been Detected' + dt + ' ' + gender)
+        alert('Invalid Input Has Been Detected: ' + dt + ' ' + gender)
     }
 }
 
