@@ -15,6 +15,7 @@ Setup Requirements:
 Known Bugs: None
 
 Technologies used: HTML, JavaScript, CSS and VSCodium
+
 Support and contact details: Please send an e-mail to dante_dot_skilz_at_gmail_dot_com
 
 License Information:
