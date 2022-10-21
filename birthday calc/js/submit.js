@@ -7,9 +7,9 @@ const selectionVerifier = (dob_choose, gender_choose) => {
 
 }
 
-const maleAkan = ['Kwasi', 'Kwadwo','Kwabena', 'Kwaku', 'Yaw', 'Kofi','Kwame'];
+const maleAkan = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 
-const femaleAkan = ['Akosua', 'Adwoa','Abenaa','Akua','Yaa','Afua','Ama'];
+const femaleAkan = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 
 const day = {
     'Monday': '1', 'Tuesday': '2', 'Wednesday': '3', 'Thursday': '4', 'Friday': '5', 'Saturday': '6', 'Sunday': '7'
@@ -19,63 +19,54 @@ const day = {
 const getAkanName = (dt, gender) => {
 
     if (dt == day.Monday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +maleAkan[1]);
+        alert('Your Akan Name is: ' + maleAkan[1]);
     } else if (dt == day.Tuesday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +maleAkan[2]);
+        alert('Your Akan Name is: ' + maleAkan[2]);
     }
     else if (dt == day.Wednesday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +maleAkan[3]);
+        alert('Your Akan Name is: ' + maleAkan[3]);
     }
     else if (dt == day.Thursday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +maleAkan[4]);
+        alert('Your Akan Name is: ' + maleAkan[4]);
     }
     else if (dt == day.Friday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +maleAkan[5]);
+        alert('Your Akan Name is: ' + maleAkan[5]);
     }
     else if (dt == day.Saturday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +maleAkan[6]);
+        alert('Your Akan Name is: ' + maleAkan[6]);
     }
     else if (dt == day.Sunday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +maleAkan[0]);
+        alert('Your Akan Name is: ' + maleAkan[0]);
     }
     else if (dt == day.Monday && gender == 'Female') {
-        alert ('Your Akan Name is: ' +femaleAkan[1]);
+        alert('Your Akan Name is: ' + femaleAkan[1]);
     }
     else if (dt == day.Tuesday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +femaleAkan[2]);
+        alert('Your Akan Name is: ' + femaleAkan[2]);
     }
     else if (dt == day.Wednesday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +femaleAkan[3]);
+        alert('Your Akan Name is: ' + femaleAkan[3]);
     }
     else if (dt == day.Thursday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +femaleAkan[4]);
+        alert('Your Akan Name is: ' + femaleAkan[4]);
     }
     else if (dt == day.Friday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +femaleAkan[5]);
+        alert('Your Akan Name is: ' + femaleAkan[5]);
     }
     else if (dt == day.Saturday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +femaleAkan[6]);
+        alert('Your Akan Name is: ' + femaleAkan[6]);
     }
     else if (dt == day.Saturday && gender == 'Male') {
-        alert ('Your Akan Name is: ' +femaleAkan[0]);
-    } 
+        alert('Your Akan Name is: ' + femaleAkan[0]);
+    }
     else {
-        alert('Invalid Input Has Been Detected' +dt +' ' +gender)
+        alert('Invalid Input Has Been Detected' + dt + ' ' + gender)
     }
 }
 
-// const getAkanName = (date, gender) => {
-//     if (gender == 'Male' && constMaleAkan.Friday == 'Friday' && date == 'Friday'){
-//         alert ('Your Akan Name is: '+constMaleAkan[6])}
-//     else {
-//         alert ('Wrong Input');
-//     }    
-// }
-
 const submitFunction = (dob, gender) => {
-    alert('Your Date of Birth is: ' +dob);
-    alert('Your Gender is: ' +gender);
-    // alert('Your Year of birth is: '+dob_choose.split('-')[0]);
+    alert('Your Date of Birth is: ' + dob);
+    alert('Your Gender is: ' + gender);
 }
 
 const loginHandler = () => {
@@ -88,10 +79,8 @@ const loginHandler = () => {
     var dateInput = new Date(dob);
     var dt = dateInput.getDay()
 
-    // selectionVerifier(dob, gender);
+    selectionVerifier(dob, gender);
     submitFunction(dob, gender);
-    // dayofTheWeek(dt);
-
-    getAkanName (dt, gender);
+    getAkanName(dt, gender);
 
 }
