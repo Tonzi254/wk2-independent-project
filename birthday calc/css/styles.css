@@ -33,9 +33,10 @@ strong {
 }
 
 img {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
+    float: none;
 }
 
 body {
@@ -99,8 +100,9 @@ footer {
         -webkit-flex-direction: column;
         flex-direction: column;
     }
+
     .column {
         display: block;
         width: 100%;
-      }
+    }
 }
