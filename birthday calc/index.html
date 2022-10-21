@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-<title>Ghanaian Akan Birthday Calculator</title>
+<title>Ghanaian Akan Calculator</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<!-- <script src="index.js"></script> -->
+<script src="js/submit.js"> type = "text/javascript" </script>
 
-<head>
-    <!-- <script src="index.js"></script> -->
-    <script src="js/submit.js"> type="text/javascript" </script>
-</head>
+<header>
+    <div class="col">
+        <heading>Ghanaian Akan Calculator</heading> <br>
+    </div>
+
+</header>
 
 <body>
-
+    <div class=""></div>
     <form>
         <label for="dob_choose">Date of Birth</label><br>
         <input type="date" id="dob_choose" name="dob_choose"><br><br>
@@ -17,12 +22,12 @@
         <label>Gender</label><br>
         <input list="gender_id" id="gender_choose" name="gender_choose">
         <datalist id="gender_id">
-          <option value="Male">
-          <option value="Female">
+            <option value="Male">
+            <option value="Female">
         </datalist>
-    <br><br>
-    <button onclick="submitFunction()" type="submit">Submit</button> <input type="reset">
-</form>
+        <br><br>
+        <button onclick="submitFunction()" type="submit">Submit</button> <input type="reset">
+    </form>
 
 </body>
 
