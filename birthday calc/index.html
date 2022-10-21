@@ -17,47 +17,52 @@
 
 <body>
     <div class="row">
-        <div class="column">
-            <section>
-                <nav>
-                    <div class="img">
-                        <img src="images/profilepic.jpg" alt="picture of me" class="image">
-                    </div>
-                    <p>Name: Daniel Rotich</p>
-                    <p>Date of Birth: October 22nd 1990 </p>
-                    <p>Ghanaian Akan Name: <span style="text-decoration: underline; font-weight: bold;">Kwadwo </span></p>
-                </nav>
-            </section>
-        </div>
-        <div class="column">
-            <section>
-                <nav>
-                    <p>You too can discover your Ghanaian Akan name by using this calculator </p>
-                    <p>All you need to do to get your Akan name is select your Date of Birth and Gender in the form
-                        provided below </p>
-                    <div class="test-box">
-                        <form>
-                            <label for="dob_choose">Date of Birth:</label><br>
-                            <input type="date" id="dob_choose" name="dob_choose"><br><br>
+        <div class="column-container">
+            <div class="column">
+                <section>
+                    <nav>
+                        <div class="img">
+                            <img src="images/profilepic.jpg" alt="picture of me" class="image">
+                        </div>
+                        <p>Name: Daniel Rotich</p>
+                        <p>Date of Birth: October 22nd 1990 </p>
+                        <p>Ghanaian Akan Name: <span style="text-decoration: underline; font-weight: bold;">Kwadwo
+                            </span></p>
+                    </nav>
+                </section>
+            </div>
+            <div class="column">
+                <section>
+                    <nav>
+                        <p>You too can discover your Ghanaian Akan name by using this calculator </p>
+                        <p>All you need to do to get your Akan name is select your Date of Birth and Gender in the form
+                            provided below </p>
+                        <div class="test-box">
+                            <form>
+                                <label for="dob_choose">Date of Birth:</label><br>
+                                <input type="date" id="dob_choose" name="dob_choose"><br><br>
 
-                            <label>Gender:</label><br>
-                            <input list="gender_id" id="gender_choose" name="gender_choose">
-                            <datalist id="gender_id">
-                                <option value="Male">
-                                <option value="Female">
-                            </datalist>
-                            <br><br>
-                            <button onclick="submitFunction()" type="submit">Submit</button> <input type="reset">
-                        </form>
-                    </div>
-                </nav>
-            </section>
+                                <label>Gender:</label><br>
+                                <input list="gender_id" id="gender_choose" name="gender_choose">
+                                <datalist id="gender_id">
+                                    <option value="Male">
+                                    <option value="Female">
+                                </datalist>
+                                <br><br>
+                                <button onclick="submitFunction()" type="submit">Submit</button> <input type="reset">
+                            </form>
+
+                        </div>
+                        <br><br><br><br><br><br>
+                    </nav>
+                </section>
+            </div>
         </div>
     </div>
 </body>
 
-<footer>
+<!-- <footer>
     <h> <span style="color:black;">Daniel Rotich ©2022 </span> </h>
-</footer>
+</footer> -->
 
 </html>
