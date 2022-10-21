@@ -61,16 +61,12 @@ const getAkanName = (dt, gender) => {
         alert('Your Akan Name is: ' + femaleAkan[0]);
     }
     else {
-        alert('Invalid Input Has Been Detected: ' + dt + ' ' + gender)
+        alert('No input was provided. Please select your Date of Birth and Gender');
+        return;
     }
 }
 
-const submitFunction = (dob, gender) => {
-    alert('Your Date of Birth is: ' + dob);
-    alert('Your Gender is: ' + gender);
-}
-
-const loginHandler = () => {
+const submitFunction = () => {
     const dobInput = document.getElementById('dob_choose');
     const genderInput = document.getElementsByName('gender_choose')[0];
 
@@ -81,7 +77,7 @@ const loginHandler = () => {
     var dt = dateInput.getDay()
 
     selectionVerifier(dob, gender);
-    submitFunction(dob, gender);
     getAkanName(dt, gender);
+
 
 }
