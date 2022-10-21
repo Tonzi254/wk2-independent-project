@@ -1,13 +1,16 @@
-Application Name: Portfolio Landing Page
+Application Name: Ghana Akan Name Calculator
 
-Description: This is a webpage to showcase my portfolio of web applications that I have developed myself over the years. It should only be used to get an overview of who I am, my background and my projects
+Description: This is a webpage to calculate a persons Akan Name from input of the person's Date of Birth and Gender
 
 Author: Daniel Rotich
 
-Setup Requirements
-*Open your web browser
-*Enter this URL on the address bar https://tonzi254.github.io/wk1-independent-project/portfolio/index.html
-*Press enter and that's it
+Setup Requirements:
+
+1. Open your web browser
+
+2. Enter this URL on the address bar https://tonzi254.github.io/wk2-independent-project/birthday%20calc/index.html
+
+3. Press enter and that's it
 
 Known Bugs: None
 
